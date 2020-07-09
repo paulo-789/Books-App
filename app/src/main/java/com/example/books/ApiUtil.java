@@ -21,6 +21,7 @@ public class ApiUtil {
         String fullUrl = BASE_API_URL + "?q=" + title;
         //conveting string to url
         URL url = null;
+
         try {
             url = new URL(fullUrl);
         }
